@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="./icon2.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="product_info.css" />
+    <script src="main.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c6300d227.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Instumentals</title>
+  </head>
+  <body>
+    <nav id="nav_bar" class="nav_class">
+      <a href="#welcome" name="home">Home</a>
+      <a href="#product-info" name="product">Products</a>
+      <a href="#product-pricing" name="pricing">Pricings</a>
+      <a href="#about" name="about1">About</a>
+      <a href="#contact" name="contact1">Contact Us</a>
+    </nav>
+
+    <section id="welcome" class="welcome">
+      <div class="brand" style="display: flex; align-items: center">
+        <i
+          class="fas fa-sharp fa-light fa-music fa-flip"
+          style="
+            opacity: 0.8;
+            color: #000000;
+            font-size: 3rem;
+            margin-top: 8rem;
+            margin-left: 4rem;
+          "
+        ></i>
+        <h1>Instrumentals</h1>
+      </div>
+      <h2 class="blink" name="text">
+        Book your<br />
+        Instrument Today
+      </h2>
+      <button
+        class="button"
+        onclick="document.location='index.php'"
+        style="vertical-align: middle"
+      >
+        <span id="clk"
+          >Click here<br />
+          to start</span
+        >
+      </button>
+    </section>
+
+    <section id="product-info" class="product-info">
+      <b>Here are the instruments that our brand serves: </b>
+      <div class="product_info_scroll">
+        <div class="guitar product-info-box">
+          <div id="guitarbox">
+            <div id="guitarcontent">
+              <h1>Guitar</h1>
+              <hr />
+              <p>
+                An electric guitar is a guitar that requires external
+                amplification in order to be heard at typical performance
+                volumes, unlike a standard acoustic guitar. It uses one or more
+                pickups to convert the vibration of its strings into electrical
+                signals, which ultimately are reproduced as sound by
+                loudspeakers.
+              </p>
+            </div>
+            <div id="guitarimg">
+              <a
+                href="https://en.wikipedia.org/wiki/Electric_guitar"
+                target="_blank"
+              >
+                <img src="/main/images/guitarwallpapers.jpg" width="500px" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="keyboard product-info-box">
+          <div id="keyboardbox">
+            <div id="keyboardcontent">
+              <h1>Keyboard</h1>
+              <hr />
+              <p>
+                A musical keyboard is the set of adjacent depressible levers or
+                keys on a musical instrument. Keyboards typically contain keys
+                for playing the twelve notes of the Western musical scale, with
+                a combination of larger, longer keys and smaller, shorter keys
+                that repeats at the interval of an octave.
+              </p>
+            </div>
+            <div id="keyboardimg">
+              <a
+                href="https://en.wikipedia.org/wiki/Musical_keyboard"
+                target="_blank"
+              >
+                <img src="/main/images/keyboard2.png" width="500px" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="violin product-info-box">
+          <div id="violinbox">
+            <div id="violincontent">
+              <h1>Violin</h1>
+              <hr />
+              <p>
+                The violin, sometimes known as a fiddle, is a wooden chordophone
+                (string instrument) in the violin family. Most violins have a
+                hollow wooden body. It is the smallest and thus highest-pitched
+                instrument (soprano) in the family in regular use.
+              </p>
+            </div>
+            <div id="violinimg">
+              <a href="https://en.wikipedia.org/wiki/Violin" target="_blank">
+                <img src="/main/images/violin.jpg" width="500px" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cello product-info-box">
+          <div id="cellobox">
+            <div id="cellocontent">
+              <h1>Cello</h1>
+              <hr />
+              <p>
+                The cello (/ˈtʃɛloʊ/ CHEL-oh; plural celli or cellos) or
+                violoncello (/ˌvaɪələnˈtʃɛloʊ/ VY-ə-lən-CHEL-oh; Italian
+                pronunciation: [vjolonˈtʃɛllo]) is a bowed (sometimes plucked
+                and occasionally hit) string instrument of the violin family.
+              </p>
+            </div>
+            <div id="celloimg">
+              <a
+                href="https://en.wikipedia.org/wiki/Musical_keyboard"
+                target="_blank"
+              >
+                <img src="/main/images/cello2.jpeg" width="500px" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="sitar product-info-box">
+          <div id="sitarbox">
+            <div id="sitarcontent">
+              <h1>Sitar</h1>
+              <hr />
+              <p>
+                The sitar (English: /ˈsɪtɑːr/ or /sɪˈtɑːr/; IAST: sitāra) is a
+                plucked stringed instrument, originating from the Indian
+                subcontinent, used in Hindustani classical music. The instrument
+                was invented in medieval India, flourished in the 18th century,
+                and arrived at its present form in 19th-century India.
+              </p>
+            </div>
+            <div id="sitarimg">
+              <a
+                href="https://en.wikipedia.org/wiki/Musical_keyboard"
+                target="_blank"
+              >
+                <img src="/main/images/sitar.jpg" width="500px" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="harmonium product-info-box">
+          <div id="harmoniumbox">
+            <div id="harmoniumcontent">
+              <h1>Harmonium</h1>
+              <hr />
+              <p>
+                The harmonium arrived in India during the mid-19th century,
+                possibly with missionaries or traders. The instrument quickly
+                became popular there: it was portable, reliable and easy to
+                learn. The harmonium is popular to the present day, an important
+                instrument in many genres of Indian, Pakistani, and Bangladeshi
+                music.
+              </p>
+            </div>
+            <div id="harmoniumimg">
+              <a
+                href="https://en.wikipedia.org/wiki/Musical_keyboard"
+                target="_blank"
+              >
+                <img src="/main/images/harmonium.jpg" width="500px" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tanpura product-info-box">
+          <div id="tanpurabox">
+            <div id="tanpuracontent">
+              <h1>Tanpura</h1>
+              <hr />
+              <p>
+                The tanpura (Sanskrit: तंबूरा, romanized: Taṃbūrā), also
+                referred to as tambura and tanpuri, is a long-necked plucked
+                string instrument, originating in India, found in various forms
+                in Indian music. It does not play melody, but rather supports
+                and sustains the melody of another instrument or singer by
+                providing a continuous harmonic bourdon or drone.
+              </p>
+            </div>
+            <div id="tanpuraimg">
+              <a
+                href="https://en.wikipedia.org/wiki/Musical_keyboard"
+                target="_blank"
+              >
+              <img src="/main/images/tanpura.jpg" width="500px" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tabla product-info-box">
+          <div id="tablabox">
+            <div id="tablacontent">
+              <h1>Tabla</h1>
+              <hr />
+              <p>
+                A tabla is a pair of twin hand drums from the Indian
+                subcontinent, that are somewhat similar in shape to the bongos.
+                Since the 18th century, it has been the principal percussion
+                instrument in Hindustani classical music, where it may be played
+                solo, as accompaniment with other instruments and vocals, and as
+                a part of larger ensembles.
+              </p>
+            </div>
+            <div id="tablaimg">
+              <a
+                href="https://en.wikipedia.org/wiki/Musical_keyboard"
+                target="_blank"
+              >
+                <img src="/main/images/tabla2.jpg" width="500px" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="showmore">
+        <button type="button"  id="showmore">Show More</button>
+      </div>
+    </section>
+
+    <section id="product-pricing" class="product-pricing"></section>
+
+    <section id="about" class="about">
+      <div class="about-section">
+        <h1>About Us</h1>
+        <p>Our main Executives</p>
+        <p>We are the leading Brand for Instruments</p>
+      </div>
+
+      <h2 style="text-align: center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/main/images/harbor.png" alt="Harbor" style="width: 100%" />
+            <div class="container">
+              <h2>Harbor</h2>
+              <p class="title">CEO & Founder</p>
+              <p>
+                "Look at us! I've never seen a more beautiful group of heavily
+                armed soldiers."
+              </p>
+              <p>harbor@gmail.com</p>
+              <p><button class="buttons">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="/main/images/raze.jpg" alt="Raze" style="width: 100%" />
+            <div class="container">
+              <h2>Raze</h2>
+              <p class="title">Art Director</p>
+              <p>
+                "Finally back out in the field! Let's go, there's so many new
+                toys I want to try out!"
+              </p>
+              <p>raze@gmail.com</p>
+              <p><button class="buttons">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="/main/images/omen.jpg" alt="Omen" style="width: 100%" />
+            <div class="container">
+              <h2>Omen</h2>
+              <p class="title">Designer</p>
+              <p>
+                "I already feel their hope dying and we haven't even begun. This
+                will not take long."
+              </p>
+              <p>omen@gmail.com</p>
+              <p><button class="buttons">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>You can contact us here:</h2>
+        <p>Feel free to share your ideas about our website...</p>
+      </div>
+      <div class="contact-links">
+        <div class="contact-details">
+          <a
+            href="https://www.facebook.com/alok.marathe.52"
+            target="_blank"
+            id="facebook"
+          >
+            <i class="fa fa-facebook-square"></i>
+            <b>Facebook</b>
+          </a>
+        </div>
+        <div class="contact-details">
+          <a href="https://github.com/LoKi0710" target="_blank" id="github">
+            <i class="fa fa-github"></i>
+            <b>GitHub</b>
+          </a>
+        </div>
+        <div class="contact-details">
+          <a
+            href="https://www.instagram.com/prathamesh_sangale_1310/"
+            target="_blank"
+            id="insta"
+          >
+            <i class="fa fa-instagram"></i>
+            <b>Instagram</b>
+          </a>
+        </div>
+        <div class="contact-details">
+          <a href="tel:9657539351" id="call">
+            <i class="fa fa-mobile"></i>
+            <b>Call Us</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer>
+      <marquee style="margin-top: 25px">
+        <div style="display: flex; justify-content: space-between">
+          <p>Copyright © 2023 Instrumentals. All rights reserved.</p>
+          <p>Created with HTML, CSS and JavaScript</p>
+        </div>
+      </marquee>
+    </footer>
+  </body>
+</html>

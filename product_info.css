@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+b {
+  margin: 45px;
+  font-size: 40px;
+  color: white;
+}
+
+.product-info p {
+  font-size: 20px;
+}
+
+/* PRODUCT INFO STARTS */
+#product-info {
+  margin-top: 10px;
+    font-family: 'Cinzel', serif;
+    background: linear-gradient(0deg, 
+    rgba(123,67,151,1) 0%, 
+    rgba(220,36,48,1) 100%);
+    align-items: center;
+    height: initial;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .product_info_scroll {
+      
+  }
+  
+  .showmore button {
+    /* display: inline-block; */
+    border-radius: 10%;
+    background-image: url("/main/images/wooden.jpeg");
+    border: none;
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.2);
+    color: #cfcfcf;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 260px;
+    margin-bottom: 2rem;
+  }
+  
+  
+/* FOR GUITAR */
+#guitarbox {
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(237, 244, 199);
+  transition: 1s;
+  border-radius: 20px;
+}
+
+#guitarbox:hover {
+  background-color: #bebebe;
+}
+
+#guitarcontent {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#guitarbox img {
+  border-radius: 0px 20px 20px 0px;
+}
+/* GUITAR END */
+  
+/* FOR KEYBOARD */
+#keyboardbox {
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(237, 244, 199);
+  transition: 1s;
+  border-radius: 20px;
+}
+
+#keyboardcontent {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#keyboardbox:hover {
+  background-color: #bebebe;
+}
+
+#keyboardbox img {
+  border-radius: 0px 20px 20px 0px;
+}
+/* KEYBOARD END */
+
+/* FOR VIOLIN */
+#violinbox {
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(237, 244, 199);
+  transition: 1s;
+  border-radius: 20px;
+}
+
+#violinbox:hover {
+  background-color: #bebebe;
+}
+
+#violincontent {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#violinbox img {
+  margin-right: 0;
+  border-radius: 0px 20px 20px 0px;
+}
+/* VIOLIN END */
+  
+/* FOR CELLO */
+#cellobox {
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(237, 244, 199);
+  transition: 1s;
+  border-radius: 20px;
+}
+
+#cellobox:hover {
+  background-color: #bebebe;
+}
+
+#cellocontent {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#cellobox img {
+  border-radius: 0px 20px 20px 0px;
+}
+/* CELLO END */
+
+/* FOR SITAR */
+#sitarbox {
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(237, 244, 199);
+  transition: 1s;
+  border-radius: 20px;
+}
+
+#sitarbox:hover {
+  background-color: #bebebe;
+}
+
+#sitarcontent {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#sitarbox img {
+  border-radius: 0px 20px 20px 0px;
+}
+/* SITAR END */
+
+/* FOR HARMONUM */
+#harmoniumbox {
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(237, 244, 199);
+  transition: 1s;
+  border-radius: 20px;
+}
+
+#harmoniumbox:hover {
+  background-color: #bebebe;
+}
+
+#harmoniumcontent {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#harmoniumbox img {
+  border-radius: 0px 20px 20px 0px;
+}
+/* HARMONIUM END */
+
+/* FOR TANPURA */
+#tanpurabox {
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(237, 244, 199);
+  transition: 1s;
+  border-radius: 20px;
+}
+
+#tanpurabox:hover {
+  background-color: #bebebe;
+}
+
+#tanpuracontent {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#tanpurabox img {
+  border-radius: 0px 20px 20px 0px;
+}
+/* TANPURA END */
+
+/* FOR TABLA */
+.tabla {
+  padding-bottom: 6rem;
+}
+
+#tablabox {
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(237, 244, 199);
+  transition: 1s;
+  border-radius: 20px;
+}
+
+#tablabox:hover {
+  background-color: #bebebe;
+}
+
+#tablacontent {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#tablabox img {
+  border-radius: 0px 20px 20px 0px;
+}
+/* TABLA END */
+/* PRODUCT-INFO PAGE ENDS */
